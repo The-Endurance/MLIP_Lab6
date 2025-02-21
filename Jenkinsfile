@@ -22,7 +22,7 @@ pipeline {
                 sudo /home/asane/miniconda3/condabin/conda run -n mliplab6 pytest
 
                 echo 'pytest not runned'
-                exit 1 #comment this line after implementing Jenkinsfile
+                #exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
